@@ -1,11 +1,11 @@
 # Write your code here.
-def line(arr)
-  new_arr = []
-  if arr.length == 0
+katz_deli = []
+def line(katz_deli)
+  if katz_deli.length == 0
     puts "The line is empty."
   else
-    arr.each_with_index do |name, num|
-      puts "The line is currently #{num}. #{name}"
+    katz_deli.each_with_index do |name, num|
+      puts "The line is currently " + name + num
     end
   end
 end
