@@ -1,5 +1,6 @@
 # Write your code here.
 def line(arr)
+  new_arr = []
   if arr.length == 0
     puts "The line is empty."
   else
